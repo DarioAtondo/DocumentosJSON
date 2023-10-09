@@ -1,0 +1,64 @@
+{
+  "invoice" : {
+    "businessContactInfo" : {
+      "businessName" : "",
+      "telephone" : "",
+      "email" : "",
+      "website" : "",
+      "streetAdress" : "",
+      "adress" : {
+        "city": "",
+        "state" : "",
+        "zipCode" : ""
+      }
+    },
+
+    "billTo" : {
+      "clientName" : "",
+      "streetAdress" : "",
+      "adress" : {
+        "city": "",
+        "state" : "",
+        "zipCode" : ""
+      }
+    },
+
+    "shipTo": {
+      "clientName" : "",
+      "streetAdress" : "",
+      "adress" : {
+        "city": "",
+        "state" : "",
+        "zipCode" : ""
+      }
+    },
+
+    "invoiceDetails" : {
+      "number" : "",
+      "date" : "",
+      "terms" : "",
+      "dueDate" : ""
+    },
+
+    "descriptionOfGoods" : [
+      {"productOrService" : "", "description" : "", "quantity" : "", "rate" : "", "ammount" : ""},
+      {"productOrService" : "", "description" : "", "quantity" : "", "rate" : "", "ammount" : ""},
+      {"productOrService" : "", "description" : "", "quantity" : "", "rate" : "", "ammount" : ""}
+    ],
+
+    "customerMessage" : [
+      {"line" : "Hello!"},
+      {"line" : "Thank you for your purchase."},
+      {"line" : "Please return this invoice with payment"},
+      {"line" : "Thanks!"}
+    ],
+
+    "paymentDetails" : {
+      "subtotal" : "",
+      "salesTax" : "",
+      "shipping" : "",
+      "total" : ""
+    }
+
+  }
+}
